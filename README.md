@@ -1,0 +1,1 @@
+Hello and thank you for checking my repository. These are just projects from school and from resources online. I mostly look at a creator called ASMRProg who just types on his mechnaical keyboard and make cool sites.
