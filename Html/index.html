@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.0/superagent.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"/>
+        <title>Metro Bank</title>
+        <script src="/static/app.js"></script>
+    </head>
+    <body style="padding: 16px; background: #0288D1">
+        <div class="ui container">
+            <div class="ui segment" style="padding: 3em">
+                <div class="ui header">
+                    <center>
+                        <h1>Metro Bank</h1>
+                    </center>
+                </div>
+                <div class="ui hidden divider"></div>
+                <div class="ui modal">
+                    <div class="ui segment">
+                        <center>
+                            <h1 id="flag"></h1>
+                        </center>
+                    </div>
+                </div>
+                <center>
+                    <h2>Admin Login</h2>
+                    <div class="ui input">
+                        <input type="text" placeholder="Password" id="password"/>
+                        <div class="ui button" style="margin-left: 1em" id="submit">Login</div>
+                    </div>
+                </center>
+                <script>
+                    $('#submit').click(login);
+                </script>
+            </div>
+            <p style="color: rgba(0,0,0,0.5); font-size: 10px; text-align: center; margin-top: 2em;">Metro Bank Challenge | &copy;2023 Cyber Skyline</p>
+        </div>
+    </body>
+</html>
